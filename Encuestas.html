@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encuestas</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header id="navbar">
+    <div class="nav-container">
+      <img src="logo.png" alt="Logo Ecos de mi Tierra" class="nav-logo">
+      <nav class="nav-menu">
+        <a href="index.html#sobre-nosotros"><i class="fas fa-users"></i> Sobre nosotros</a>
+        <a href="Encuestas.html"><i class="fas fa-poll"></i> Encuestas</a>
+        <a href="contacto.html"><i class="fas fa-envelope"></i> Contáctanos</a>
+      </nav>
+    </div>
+  </header>
+
+  <h1>Selecciona un tema para la encuesta</h1>
+
+  <div class="cards-container">
+    <div class="card medioambiente" onclick="window.open('https://forms.gle/XJuaVrvs5AiAJccE9','_blank')">
+      <div class="icon"><i class="fas fa-leaf"></i></div>
+      <h3>Medioambiente</h3>
+      <p>Comparte tu opinión sobre la naturaleza y la sostenibilidad.</p>
+    </div>
+    <div class="card economia" onclick="window.open('https://forms.gle/SKJXq5tjfNunpnBF9','_blank')">
+      <div class="icon"><i class="fas fa-coins"></i></div>
+      <h3>Economía</h3>
+      <p>Tu perspectiva sobre finanzas, empleo y desarrollo económico.</p>
+    </div>
+    <div class="card justicia" onclick="window.open('https://forms.gle/xARqPnmuaQHsyD1N6','_blank')">
+      <div class="icon"><i class="fas fa-gavel"></i></div>
+      <h3>Justicia</h3>
+      <p>Opina sobre leyes, derechos y acceso a la justicia.</p>
+    </div>
+    <div class="card politica" onclick="window.open('https://forms.gle/ik8uWYhHmEx9688e6','_blank')">
+      <div class="icon"><i class="fas fa-landmark"></i></div>
+      <h3>Política</h3>
+      <p>Expresa tu visión sobre gobierno, líderes y decisiones políticas.</p>
+    </div>
+    <div class="card turismo" onclick="window.open('https://forms.gle/4ABXusJf7m4Z7gD37','_blank')">
+      <div class="icon"><i class="fas fa-umbrella-beach"></i></div>
+      <h3>Turismo</h3>
+      <p>Comparte ideas sobre viajes, cultura y atractivos del país.</p>
+    </div>
+    <div class="card migracion" onclick="window.open('https://forms.gle/CYAD3ZvEmDu8wa8i6','_blank')">
+      <div class="icon"><i class="fas fa-people-arrows"></i></div>
+      <h3>Migración</h3>
+      <p>Da tu opinión sobre movilidad humana e inmigración.</p>
+    </div>
+    <div class="card general" onclick="window.open('https://forms.gle/q9BTF28oDCcru1P78','_blank')">
+      <div class="icon"><i class="fas fa-bullhorn"></i></div>
+      <h3>General</h3>
+      <p>Temas diversos para que tu voz sea escuchada.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 Ecos de mi Tierra. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

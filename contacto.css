@@ -1,0 +1,121 @@
+/* =========================
+   NAVBAR FIJA
+========================= */
+#navbar {
+  position: fixed;
+  top: -80px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+  padding: 10px 0;
+  transition: top 0.3s ease;
+  z-index: 999;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.nav-logo {
+  width: 60px;
+}
+
+.nav-menu a {
+  color: #f5f0f0;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #1abc9c;
+}
+
+/* =========================
+   ESTILOS DEL FORMULARIO
+========================= */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f6f3;
+  text-align: center;
+  margin: 0;
+  padding-top: 100px;
+}
+
+.contacto {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  border-radius: 15px;
+  max-width: 800px;
+  margin: 60px auto;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.contacto h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contacto p {
+  margin-bottom: 25px;
+  color: #555;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 110px;
+}
+
+button {
+  background-color: #4C7D93;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #365d6e;
+}
+
+#mensaje-exito {
+  display: none;
+  color: green;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.info-contacto {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+}

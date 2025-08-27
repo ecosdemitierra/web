@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contáctanos</title>
+  <link rel="stylesheet" href="contacto.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR FIJA -->
+  <header id="navbar">
+    <div class="nav-container">
+      <img src="logo.png" alt="Logo Ecos de mi Tierra" class="nav-logo">
+      <nav class="nav-menu">
+        <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+        <a href="Encuestas.html"><i class="fas fa-poll"></i> Encuestas</a>
+        <a href="contacto.html"><i class="fas fa-envelope"></i> Contáctanos</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- FORMULARIO DE CONTACTO -->
+  <section class="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Tienes alguna duda, sugerencia o comentario? Escríbenos aquí:</p>
+
+    <form id="formulario-contacto">
+      <div class="form-group">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+      </div>
+      <div class="form-group">
+        <textarea name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <p id="mensaje-exito">✅ ¡Gracias! Tu mensaje fue enviado.</p>
+
+    
+  </section>
+
+  <script src="contacto.js"></script>
+</body>
+</html>
